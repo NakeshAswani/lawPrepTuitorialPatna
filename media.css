@@ -1,0 +1,136 @@
+@media only screen and (min-width: 200px) and (max-width: 991px) {
+    .mobilefixed {
+        display: flex;
+    }
+
+    .fixedlogo {
+        z-index: 99;
+    }
+
+    body>a {
+        bottom: 55px;
+        z-index: 9;
+    }
+
+    .bannerinner {
+        flex-direction: column;
+        padding: 10px 15px;
+        gap: 20px;
+    }
+
+    .whytestinner {
+        padding: 50px 15px;
+    }
+
+    .whyTestinner h2 {
+        font-size: 30px;
+    }
+
+    .whyItems {
+        flex-direction: column;
+    }
+
+    .whyLPTinner h2 {
+        font-size: 30px;
+    }
+
+    .whyLPTblocks {
+        height: auto;
+        background: none;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .whyLPTblocks>img:first-child,
+    .whyLPTblocks>img:nth-child(2) {
+        display: none;
+    }
+
+    .LPTblock {
+        margin-bottom: 20px;
+    }
+
+    .LPTblock img {
+        display: block;
+        margin: auto;
+    }
+
+    .whyLPTblocks .LPTblock:nth-child(3),
+    .whyLPTblocks .LPTblock:nth-child(4),
+    .whyLPTblocks .LPTblock:nth-child(5),
+    .whyLPTblocks .LPTblock:last-child {
+        position: static;
+        text-align: center;
+    }
+
+    .performanceinner {
+        padding: 50px 15px;
+    }
+
+    .performanceinner h1 {
+        font-size: 30px;
+    }
+
+    .performanceinner table th {
+        font-size: 13px;
+    }
+
+    .performanceinner table td {
+        font-size: 13px;
+        padding: 15px 0px;
+    }
+
+    .coursesinner h2 {
+        font-size: 30px;
+    }
+
+    .coursesinner {
+        flex-direction: column;
+        padding: 50px 15px;
+    }
+
+    .Cblock1 {
+        margin: 0px;
+    }
+
+    .result {
+        padding: 50px 0px 20px 0px;
+    }
+
+    .result>h1 {
+        font-size: 27px;
+    }
+
+    .resultinner {
+        flex-direction: column;
+        padding: 50px 25px;
+    }
+
+    .resultblock {
+        padding-bottom: 20px;
+        margin-bottom: 10px;
+    }
+
+    .result iframe {
+        width: 90%;
+        height: 35%;
+    }
+
+    .footerinner h3 {
+        margin-bottom: 30px;
+    }
+
+    .footerinner h3:nth-child(5) {
+        margin-bottom: 15px;
+    }
+
+    .footerinner i {
+        margin-bottom: 10px;
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 991px) {
+    .resultinner {
+        flex-direction: row;
+    }
+}
